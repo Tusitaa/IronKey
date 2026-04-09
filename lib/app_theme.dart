@@ -14,41 +14,42 @@ class AppTheme {
   static const Color onSurfaceDark = Color(0xFFCFD8DC);
 
   static const ColorScheme lightColors = ColorScheme(
-  brightness: Brightness.light,
-  primary: primaryLight,
-  onPrimary: onPrimaryLight,
-  secondary: primaryLight,
-  onSecondary: onPrimaryLight,
-  error: Colors.red,
-  onError: Colors.white,
-  surface: backgroundLight,
-  onSurface: onSurfaceLight,
-  background: backgroundLight,
-  onBackground: onBackgroundLight,
+    brightness: Brightness.light,
+    primary: primaryLight,
+    onPrimary: onPrimaryLight,
+    secondary: primaryLight,
+    onSecondary: onPrimaryLight,
+    error: Colors.red,
+    onError: Colors.white,
+    surface: backgroundLight,
+    onSurface: onSurfaceLight,
+    background: backgroundLight,
+    onBackground: onBackgroundLight,
   );
 
   static const ColorScheme darkColors = ColorScheme(
-  brightness: Brightness.dark,
-  primary: primaryDark,
-  onPrimary: onPrimaryDark,
-  secondary: primaryDark,
-  onSecondary: onPrimaryDark,
-  error: Colors.redAccent,
-  onError: Colors.black,
-  surface: backgroundDark,
-  onSurface: onSurfaceDark,
-  background: backgroundDark,
-  onBackground: onBackgroundDark,
+    brightness: Brightness.dark,
+    primary: primaryDark,
+    onPrimary: onPrimaryDark,
+    secondary: primaryDark,
+    onSecondary: onPrimaryDark,
+    error: Colors.redAccent,
+    onError: Colors.black,
+    surface: backgroundDark,
+    onSurface: onSurfaceDark,
+    background: backgroundDark,
+    onBackground: onBackgroundDark,
   );
 
   static ThemeData lightTheme = ThemeData(
-  useMaterial3: true,
-  colorScheme: lightColors,
-  scaffoldBackgroundColor: backgroundLight,
+    useMaterial3: true,
+    colorScheme: lightColors,
+    scaffoldBackgroundColor: backgroundLight,
   );
   static ThemeData darkTheme = ThemeData(
-  useMaterial3: true,
-  colorScheme: darkColors,
-  scaffoldBackgroundColor: backgroundDark,
+    useMaterial3: true,
+    colorScheme: darkColors,
+    scaffoldBackgroundColor: backgroundDark,
   );
 }
+
